@@ -605,3 +605,185 @@ svg{
   width: 20px;
   height: 20px;
 }
+
+/* _______________________________________________________________*/
+
+
+@media (max-width: 768px) {
+
+  /* Conteneur */
+
+  .conteneur {
+    padding: 0 16px;
+  }
+
+  /* Sections */
+
+  .section {
+    padding: 60px 0;
+  }
+
+
+  /* Header */
+
+  .en-tete-contenu {
+    height: auto;
+    min-height: 70px;
+    padding: 15px 0;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+
+  /* Hero */
+
+  .hero {
+    padding: 50px 0 60px;
+  }
+
+  .hero-contenu {
+    flex-direction: column;
+  }
+
+  .hero-texte {
+    width: 100%;
+  }
+
+  .hero-texte h1 {
+    font-size: 36px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 300px;
+  }
+
+
+  /* Boutons */
+
+  .boutons {
+    flex-direction: column;
+  }
+
+  .bouton {
+    width: 100%;
+  }
+
+
+  /* Cartes */
+
+  .cartes {
+    flex-direction: column;
+  }
+
+  .carte {
+    width: 100%;
+    min-width: 0;
+  }
+
+
+  /* Chiffres */
+
+  .chiffres {
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .chiffre + .chiffre {
+    border-left: none;
+    border-top: 1px solid #E5E7EB;
+    padding-top: 20px;
+  }
+
+
+  /* À propos */
+
+  .apropos-contenu {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .apropos-texte {
+    width: 100%;
+  }
+
+  .apropos-texte h2 {
+    font-size: 30px;
+  }
+
+  .apropos-image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .valeurs {
+    flex-direction: column;
+  }
+
+
+  /* Formules */
+
+  .formules {
+    margin-top: 60px;
+  }
+
+  .formule {
+    padding: 22px;
+  }
+
+
+  /* Footer */
+
+  .pied-haut {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .menu-pied {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pied-bas {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  /* Formulaire */
+
+  section {
+    flex-direction: column;
+  }
+
+  form {
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .image-form {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Coordonnes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
